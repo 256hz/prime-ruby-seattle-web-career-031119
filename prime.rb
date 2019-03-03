@@ -6,7 +6,7 @@ def prime?(number)
       divisors += 1
     end
   end
-  if divisors > 2 || number < 0
+  if divisors < 2 || divisors > 2 || number < 0
     prime = false
   end
   prime
