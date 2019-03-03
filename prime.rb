@@ -1,7 +1,7 @@
 def prime?(number)
   divisors = 0
   prime = true
-  for i in range 1..number
+  for i in 1..number
     if number/i == number.fdiv(i)
       divisors += 1
     end
